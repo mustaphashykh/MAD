@@ -1,0 +1,9 @@
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="taskTextColor">#000000</color>
+    <color name="completedTaskTextColor">#9E9E9E</color>
+    <color name="deleteButtonColor">#D32F2F</color>
+</resources>

@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EditNoteActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Title Input -->
+    <EditText
+        android:id="@+id/editTextEditNoteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Note Title"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Description Input -->
+    <EditText
+        android:id="@+id/editTextEditNoteDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Note Description"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:lines="5"
+        android:gravity="top"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Update Button -->
+    <Button
+        android:id="@+id/buttonUpdateNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Note"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFF"
+        android:padding="12dp" />
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/buttonDeleteNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Note"
+        android:backgroundTint="#FF0000"
+        android:textColor="#FFF"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Cancel Button -->
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:backgroundTint="#888888"
+        android:textColor="#FFF"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
